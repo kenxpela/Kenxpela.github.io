@@ -1,0 +1,289 @@
+*{
+   padding: 0;
+   box-sizing:content-box;
+}
+ 
+body{
+  font-family: 'Kanit', sans-serif;
+  background: radial-gradient(#f1f1f1 , #717c9b );
+  background-attachment: fixed;
+}
+.Nav{
+  display: flex;
+  align-items: center;
+  padding: 2px;
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li{
+  display: inline-block;
+  margin-right: 20px;
+}
+li a{
+   text-decoration: none;
+   color: black;
+   font-family: 'Kanit', sans-serif;
+   font-size: 12px;
+   border-style: solid;
+   font-size: 15px;
+}
+.search{
+  display: inline-block;
+  background: transparent;
+  border: 2px solid black;
+  padding: 8px 20px;
+  border-radius: 20px;
+}
+  
+
+
+.home{
+  display: inline-block;
+  background: transparent;
+  border: 2px solid black;
+  padding: 5px 20px;
+  margin: 10px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+
+}
+
+.about{
+  display: inline-block;
+  background: transparent;
+  border: 2px solid black;
+  padding: 5px 20px;
+  margin: 10px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+}
+.contact{
+  display: inline-block;
+  background: transparent;
+  border: 2px solid black;
+  padding: 5px 20px;
+  margin: 10px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+}
+.signout{
+  display: inline-block;
+  background: transparent;
+  border: 2px solid black;
+  padding: 5px 20px;
+  margin: 10px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+
+}
+.cart{
+  display: inline-block;
+  background: #757575;
+  color: black;
+  padding: 5px 20px;
+  margin: 10px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+}
+
+.home:hover{
+  background: whitesmoke;
+}
+.about:hover{
+  background: whitesmoke;
+}
+.contact:hover{
+  background: whitesmoke;
+}
+.signout:hover{
+  background: whitesmoke;
+}
+
+.container{
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.col-1{
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  transition: background 1s;
+  transition: transform .5s; 
+
+}
+.col-1 img{
+  width: 100%;
+  padding: 0px 0;
+}
+
+.small-container{
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 125px;
+}
+
+.small-container .H1{
+  text-align: left;
+  padding-left: 50px;
+ font-size: 120%;
+ display: inline-block;
+ margin-bottom: 4px;
+}
+
+h2{
+  font-weight: normal;
+}
+
+.col-1 p{
+  font-size: 16px;
+}
+.col-1:hover{
+  background: #b2b1b1;
+  background-color: solid rgb(241, 236, 236);
+  transform: perspective(900px) translate3d(10px, 50px, 50px);
+}
+
+.logo:hover {
+  animation-name: rotate;
+  animation-duration: 0.7s;
+  animation-direction: reverse;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.row-2{
+  justify-content: space-between;
+  margin-right: 50px;
+  font-size: 22px;
+}
+
+select{
+  border: 12px solid #2d2d2d;
+ 
+}
+.page{
+  margin:0 auto 10px;
+}
+.page span{
+  display: inline-block;
+  position: -ms-page;
+  border: 1px solid #fbfbfb;
+  width:40px;
+  height:40px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  margin-right: 2px;
+}
+
+.page span:hover{
+  background: #fcf8f8;
+}
+
+
+
+.col-2{
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 0px;
+
+}
+.col-2 img{
+  width: 130%;
+
+}
+.small-container-2{
+  max-width: 1080px;
+  padding-left: 70px;
+
+}
+
+.col{
+  flex-basis: 50%;
+  padding-top: 150px; 
+}
+
+.col p {
+  font-size: 30px; 
+}
+.col h3{
+   font-size: 50px; 
+}
+.col h4{
+  font-size: 20px; 
+}
+.row3{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 47px;
+}
+
+.addcart{
+  display: inline-block;
+  background: #f1e4e4;
+  color: rgb(17, 16, 16);
+  padding: 5px 20px;
+  margin: 10px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+  text-decoration: none;
+}
+.addcart:hover{
+  background: #868181;
+}
+
+.small-container-2 .description{
+  padding-left: 115px;
+  padding-top: 60px;
+  font-size: larger;
+  text-align: justify;
+}
+.goback{
+  display: inline-block;
+  background: #f1e4e4;
+  color: rgb(17, 16, 16);
+  padding: 5px 20px;
+  margin: 10px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+  text-decoration: none;
+  font-size: larger;
+
+}
+.goback:hover{
+  background: #868181;
+}
+table tr td img{
+  margin-left: 10px;
+}
+table tr td h3{
+  text-align: center;
+}

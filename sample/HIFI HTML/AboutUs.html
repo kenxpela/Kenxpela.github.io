@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>About Us</title>
+  <link rel="stylesheet" href="./css/t3st.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="website icon" type="png" href="./images/logo.png">
+</head>
+<body>
+  <div class="container">
+  <div class="header">
+    <div class="Nav">
+			<div class="logo">
+				<img src="images/logo2.png" width="150px" height="140px">
+			</div>
+			<nav>
+				<ul>
+					<li><a class="home" href="homepage-ver2.html">Home</a></li>
+					<li><a class="contact" href="ContactUS.html">Contact</a></li>
+					<li><a class="signout" href="Login-page.html">Sign out</a></li>
+				</ul>
+			</nav>
+		</div>
+
+  <section class="about-us">
+    <div class="main">
+      <img src="./images/converse.png">
+       <div class="about-text">
+        <center><h1 style="color:black">About Us</h1></center><br>
+        <center><p style="color:black">As fellow classmates and business partners coming from the Bicol University, we are eager to showcase the beauty of our local shoe designs. For what we had observed, people in our country prefers to order or shop online for shoes that had been made in foreign countries without realizing that the hand made or even the factory made shoes here in the Philippines are as much durable and great as the ones that other foreign country has to offer.
+       <span id="dots">...</span><span id="more"> Kings Armory is an online store for those people who love shoes or want to buy shoes. We offer not only regular shoes but authentic and 100% Philippine-made shoes. Kings Armory is also known as the Philippines' Leading Brand since 1980. Kings Armory's provide easy and hassle-free shopping experience. We also offer affordable prices for our products and discounts or vouchers for our loyal customers.From hand-made materials into a masterpiece pair of shoes, that's what our local shoe stores here in the Philippines can offer. Let us Support Local and Buy Local!</span></p><button onclick="myFunction()" id="myBtn">Read more</button></center>
+       </div>
+      </div>
+    </section>
+
+  <script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+</div>
+</body>
+</html>

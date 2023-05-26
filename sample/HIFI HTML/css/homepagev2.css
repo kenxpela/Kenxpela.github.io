@@ -1,0 +1,132 @@
+body{
+    font-family: 'Kanit', sans-serif;
+    background: radial-gradient(#f1f1f1 , #717c9b );
+    background-attachment: fixed;
+    }
+.logo{
+    float: left;
+    width: 100px;
+    height: 100px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.king{
+    line-height: 0px;
+}
+.armory{
+    line-height: 0px;
+    margin-top: 40px;
+} 
+.title{
+    padding-top: 10px;
+    padding-left: 130px;
+    color: back;
+    font-size: 20px;
+    position: absolute;
+}
+.navigation{
+    float: right;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    padding: 1px 20px;
+    margin-right: 10px;
+    margin-top: 1px;
+    color: rgb(255,255,255);
+    font-size: 20px;
+    border: solid 2px black;
+    border-radius: 30px;
+    transition: .4s;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+.image{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 650px;
+    transition: .5s;
+} 
+.description-container{
+    width: 350px;
+    height: 380px;
+    border: solid black;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 250px;
+    border-radius: 15px;
+}
+#logo{
+    padding-top: 20px;
+    padding-left: 100px;
+}
+.description-container h1{
+    font-family: 'Lexend Exa', sans-serif;    
+    color: black;
+    padding-left: 15px;
+}
+.shopnow-container{
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 250px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: black;
+    transition: .4s;
+}
+.shopnow-container a{
+    line-height: 1px;
+    font-family: 'Lexend Exa', sans-serif;  
+    text-decoration: none;
+    color: white;
+}
+.shopnow-container:hover{
+    transform: perspective(900px) translate3d(0px, 0px, 90px);
+    background-color: #6a8ac4;
+}
+.shopnow-container a:hover{
+    transform: perspective(900px) translate3d(0px, 0px, 90px);
+    background-color: #6a8ac4;
+}
+
+nav ul li:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+.perks table{
+    position: absolute;
+    margin-top: 660px;
+    margin-left: 300px;
+}
+.perks table tr td img{
+    width: 70px;
+    height: 60px;
+    padding: 0px 90px;
+}
+.perks table tr td p{
+    text-align: center;
+    line-height: 0px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    color: black;
+}
+.footer p{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    margin-top: 770px;
+    margin-left: 300px;
+    color: black;
+}
+#since{
+    margin-left: 630px;
+    padding-top: 10px;
+}
+.image:hover{
+    transform: perspective(900px) translate3d(10px, 10px, 90px);
+}
+

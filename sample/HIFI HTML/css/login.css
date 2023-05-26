@@ -1,0 +1,100 @@
+*{
+    font-family: 'Kanit', sans-serif;
+}
+body{
+    background: radial-gradient(#f1f1f1 , #717c9b );
+    background-attachment: fixed;
+}
+.title{
+    text-align: center; 
+    margin: 0;
+    color: black;   
+    font-size: 20px;
+    padding-top: 10px;
+}
+.king{
+    margin-bottom:0px;
+    line-height: 0px;
+}
+.armory{
+    line-height: 0px;
+    margin-top: 40px;
+}
+.logo{
+    padding-top: 20px;
+}
+.welcome-container{
+    box-shadow: 7px 7px;
+    background-color: rgb(255,255,255);
+    width: 500px;
+    height: 60px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px
+}
+.welcome{
+    text-align: center;
+    padding-top: 5px;
+}
+#username{
+    margin-top: 10px;
+    margin-bottom: 3px;
+    font-size: 20px;
+    margin-left: 5px;
+    padding-top: 15px;
+}
+#password{
+    margin-top: 1px;
+    margin-bottom: 3px;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.login-page{
+    box-shadow: 10px 10px;
+    background-color: rgb(255,255,255) ;
+    width: 500px;
+    height: 260px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.txt-field h4{
+    padding-bottom: 5px; 
+    padding-top: 5px;   
+}
+form{
+    padding-left: 25px;
+}
+.txt-field input{
+    width: 87%;
+    height: 40px;
+    border-radius: 15px;
+    padding: 0 15px;
+}
+.login-page button{
+    margin-left: 180px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    width: 20%;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #a1a7bb;
+    transition: .4s;
+    font-size: 15px;
+    font-weight: bold;
+}
+button:hover{
+	background: transparent;
+	border: 2px solid black;
+	cursor: pointer;
+    transform: scale(1.1);
+}
+.sign-up{
+    text-align: center;
+    margin-top: 50px;
+}
+#login-btn{
+    text-decoration: none;
+    color: black;
+}

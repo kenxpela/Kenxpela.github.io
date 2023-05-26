@@ -1,0 +1,104 @@
+*{
+    font-family: 'Kanit', sans-serif;
+}
+body{
+    background: radial-gradient(#f1f1f1 , #717c9b );
+    background-attachment: fixed;
+}
+.title{
+    width: 150px;
+    color: black;
+    float: left;
+    padding-top: 5px;
+    padding-left: 20px;
+    font-size: 20px ;
+}
+.king{
+    line-height: 0px;
+}
+.armory{
+    line-height: 0px;
+    margin-top: 40px;
+}  
+.logo{
+    float: left;    
+    padding-left: 20px;
+}
+.signup-page{
+    box-shadow: 10px 10px;
+    height: 500px;
+    width: 600px;
+    border-radius: 15px;
+    background-color: rgb(255,255,255);
+    margin-left: auto;
+    margin-right: auto;
+}
+#user{
+    padding-top: 30px;
+    line-height: 0px;
+    margin-top: 10px;
+}
+#pass{
+    line-height: 0px;
+}
+#re-pass{
+    line-height: 0px;
+}
+#phone-number{
+    line-height: 0px;
+}
+.signup-page h1{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(166, 166, 166);
+    border-radius: 15px;
+}
+.create-account{
+    text-align: center;
+    width: 600px;
+    border-radius: 15px;
+    background-color: rgb(255,255,255);
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 7px 7px;
+
+}
+.create-account h1{
+    padding-top: 5px;
+}
+form{
+    padding-left: 30px;
+}
+.signup-page h4{
+    font-size: 20px;
+}
+.signup-page input{
+    width: 87%;
+    height: 40px;
+    border-radius: 15px;
+    padding: 0 15px;
+}
+.signup-page button{
+    margin-left: 210px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    width: 20%;
+    height: 40px;
+    border-radius: 15px;
+    background-color: rgb(166, 166, 166);
+    transition: .4s;
+    font-size: 15px;
+    font-weight: bold;
+}
+button:hover{
+	background: transparent;
+	border: 2px solid black;
+	cursor: pointer;
+    transform: scale(1.1);
+}
+.log-in{
+    text-align: center;
+    margin-top: 45px;
+}
